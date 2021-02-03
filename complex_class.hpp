@@ -3,6 +3,12 @@
 
 #include <cmath> //I use this in order to avoid definig the function also for the real numbers...
 
+// Let's use templates to make things easier 
+
+#define Complex_Template template<LD>
+#define Complex_Namespace complex<LD>
+
+// Complex_Template
 class complex
 {
     public:
