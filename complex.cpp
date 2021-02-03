@@ -1,12 +1,7 @@
 // This is an example on how to use complex.
-//complile as:
-// g++ example.cpp -I ./include
-
-//----------remember tha you can put the inclde folder anywhere. Then the compilation should happen as
-// g++ example.pp -I path-to-include
 
 #include <iostream>
-#include "complex_headers.hpp"
+#include "complex.hpp"
 
 
 using namespace std;
